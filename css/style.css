@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.d-flex{
+    display: flex;
+    flex-direction: column;
+}
+#container{
+    border: 2px solid grey;
+    padding: 20px;
+    padding-top: 0;
+    width: 60%;
+    align-items: center;
+}
+h1{
+    font-size: 2rem;
+    font-family: cursive;
+}
+#insert{
+   align-items: center;
+   width: 80%;
+}
+#Todo{
+    width: 100%;
+    padding: 5px;
+    margin: 20px;
+}
+#btnInsert{
+    padding: 7px;
+    margin-bottom: 30px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+[type=checkbox]{
+    width: 17px;
+    height: 17px;
+    transform: translateY(10%);
+}
+#list{
+    width: 70%;
+}
+label{
+    word-break: break-all;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+#btnDelete{
+    transform: translateY(-10%);
+    margin-left: 12px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-color: red;
+}
+.checked{
+    text-decoration: line-through;
+    text-decoration-color: red;
+    opacity: .6;
+}
+@media (max-width: 992px){
+    #container{
+        width: 80%;
+    }
+}
